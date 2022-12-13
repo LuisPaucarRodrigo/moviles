@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_nav_main"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_temperatura"
+            android:title="Temperatura"
+            android:icon="@android:drawable/ic_menu_compass"
+            />
+        <item
+            android:id="@+id/nav_cuenta"
+            android:title="Cuenta"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            />
+        <item
+            android:id="@+id/nav_conversor"
+            android:title="Conversor"
+            android:icon="@android:drawable/ic_menu_manage"
+            />
+        <item
+            android:id="@+id/nav_historial"
+            android:title="Historial"
+            android:icon="@android:drawable/ic_menu_agenda"
+            />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:title="Notificaciones"
+            android:icon="@android:drawable/stat_notify_chat"
+            />
+        <item
+            android:id="@+id/nav_contactos"
+            android:title="Cerrar Sesion"
+            android:icon="@android:drawable/ic_lock_power_off"
+            />
+    </group>
+</menu>
